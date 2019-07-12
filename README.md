@@ -12,7 +12,7 @@
 - 接口分析（IEnumerable、IEnumerable<T>、IComparable、IComparable<in T>、IFormattable、IFormatProvider、IConvertible、ICloneable、IEquatable<T>、IComparer<in T>、IEqualityComparer<in T>、IDisposable、IAsyncResult、ICollection<T>、IList<T>、IQueryable、IQueryProvider、IDictionary<TKey, TValue>、INotifyPropertyChanged、IEditableObject）
 - Lambda、linq、SQL
 - 进程与线程、多线程与异步
-- 
+- <I>
 
 ------------
 
