@@ -38,6 +38,8 @@ IL学习
 
 [你的C#代码是怎么跑起来的（二）](https://www.cnblogs.com/brookshi/p/5278284.html)
 
+[c#内存管理概要](https://www.qingtingip.com/h_291669.html)
+
 ------------
 
 
@@ -120,7 +122,7 @@ C#调用C++或者C的DLL库中的函数也属于非托管资源。.NET环境下�
 
 ------------
 
-![](https://raw.githubusercontent.com/coding-daily/awesome-csharp/master/images/C%20Sharp%E7%BC%96%E8%AF%91.png)
+![](https://raw.githubusercontent.com/coding-daily/awesome-csharp/master/images/C%20Sharp%E7%BC%96%E8%AF%912.png)
 
 ------------
 
