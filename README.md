@@ -12,7 +12,7 @@
 - 接口分析（IEnumerable、IEnumerable< T >、IComparable、IComparable< in T >、IFormattable、IFormatProvider、IConvertible、ICloneable、IEquatable< T >、IComparer< in T >、IEqualityComparer< in T >、IDisposable、IAsyncResult、ICollection< T >、IList< T >、IQueryable、IQueryProvider、IDictionary< TKey, TValue >、INotifyPropertyChanged、IEditableObject）
 - Lambda、linq、SQL
 - 进程与线程、多线程与异步
-- <I>
+- 
 
 ------------
 
@@ -29,13 +29,19 @@
 IL学习
 
 [30分钟？不需要，轻松读懂IL](https://www.cnblogs.com/brookshi/p/5225801.html)
+
 [进阶篇：以IL为剑，直指async/await](https://www.cnblogs.com/brookshi/p/5240510.html)
+
 [深入浅出.Net IL](https://www.cnblogs.com/jackson0714/p/4995980.html)
+
 
 ------------
 
 
 基类（抽象类）还是接口？
+
+接口：行为规范，表示能做什么事，成员包含方法、属性、索引器、不含字段和实现的方法
+抽象类：字段、属性、实现的方法
 
 1、IS-A对比CAN-DO关系 
 
@@ -54,7 +60,29 @@ IS-A代表属于，CAN-DO代表能做某事。
 
 向基类添加一个方法，派生类将继承该方法。而如果向接口添加新成员，则会强迫接口的继承者更改源代码并重新编译。   
 
+
+#### 泛型
+
+原理：延时声明，在运行时进行编译。
+
+四种：泛型方法、泛型类、泛型接口、泛型委托
+
+泛型约束：... where T：< ... >
+
+#### 委托与事件
+
+Delegate：表示函数参数（签名）和返回值的类型   函数的指针|引用|类型
+
+可以利用多播委托进行解耦和插件式开发。
+
+默认委托：
+- Func< T > 有返回值  Func< int,String >返回值类型为String，参数为int
+- Action< T > 无返回值  Action< int,int>参数为两个int类型
+
+
 -------------
+
+#### 内存管理与GC垃圾回收
 
 什么是垃圾？简单理解就是没有被引用的对象。
 
@@ -91,3 +119,34 @@ C#调用C++或者C的DLL库中的函数也属于非托管资源。.NET环境下�
 
 ![](https://raw.githubusercontent.com/coding-daily/awesome-csharp/master/images/C%20Sharp%E7%BC%96%E8%AF%91.png)
 
+------------
+
+#### 堆栈（Stack）与堆（Heap）
+
+栈是基于线程的，一个线程创建会分配一个默认1M大小的栈，由操作系统管理。
+
+堆是基于进程的，一个进程分配一个堆。
+
+------------
+
+#### 进程与线程
+
+进程：系统进行资源分配和调用的独立单位。
+
+线程：CPU调度和分配的基本单位。
+
+线程：
+- Thread() 前台线程
+- ThreadPool(线程池) 后台线程
+
+
+------------
+
+#### 多线程与异步
+
+异步是最终目的，多线程只是我们实现异步的一种手段。
+
+三种异步模式：
+- 1，异步编程模型（APM）模式（IAsyncResult） 不推荐
+- 2，基于事件的异步模式（EAP） 不推荐
+- 3，基于任务的异步模式（TAP） 推  荐
