@@ -34,6 +34,9 @@ IL学习
 
 [深入浅出.Net IL](https://www.cnblogs.com/jackson0714/p/4995980.html)
 
+[你的C#代码是怎么跑起来的（一）](https://www.cnblogs.com/brookshi/p/5273281.html)
+
+[你的C#代码是怎么跑起来的（二）](https://www.cnblogs.com/brookshi/p/5278284.html)
 
 ------------
 
@@ -149,4 +152,4 @@ C#调用C++或者C的DLL库中的函数也属于非托管资源。.NET环境下�
 三种异步模式：
 - 1，异步编程模型（APM）模式（IAsyncResult） 不推荐
 - 2，基于事件的异步模式（EAP） 不推荐
-- 3，基于任务的异步模式（TAP） 推  荐
+- 3，基于任务的异步模式（TAP） 推荐
