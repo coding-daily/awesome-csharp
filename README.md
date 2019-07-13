@@ -24,6 +24,14 @@
 
 [DotNet进阶系列](https://www.cnblogs.com/yaopengfei/p/8853590.html)
 
+--------------
+
+IL学习
+
+[30分钟？不需要，轻松读懂IL](https://www.cnblogs.com/brookshi/p/5225801.html)
+[进阶篇：以IL为剑，直指async/await](https://www.cnblogs.com/brookshi/p/5240510.html)
+[深入浅出.Net IL](https://www.cnblogs.com/jackson0714/p/4995980.html)
+
 ------------
 
 
