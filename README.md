@@ -10,7 +10,7 @@
 - 内存管理与GC垃圾回收 
 - 内置数据类型（基元类型、System.Type、System.Object、System.ValueType、）
 - 内置数据结构（）
-- 接口分析（IEnumerable、IEnumerable< T >、IComparable、IComparable< in T >、IFormattable、IFormatProvider、IConvertible、ICloneable、IEquatable< T >、IComparer< in T >、IEqualityComparer< in T >、IDisposable、IAsyncResult、ICollection< T >、IList< T >、IQueryable、IQueryProvider、IDictionary< TKey, TValue >、INotifyPropertyChanged、IEditableObject）
+- 接口分析（IEnumerable、IEnumerable< T >、IComparable、IComparable< in T >、IFormattable、IFormatProvider、IConvertible、ICloneable、IEquatable< T >、IComparer< in T >、IEqualityComparer< in T >、IDisposable、IAsyncResult、ICollection< T >、IList< T >、IQueryable、IQueryProvider、IDictionary< TKey, TValue >、INotifyPropertyChanged、IEditableObject、ISerializable）
 - Lambda、linq、SQL
 - 进程与线程、多线程与异步
 - 
@@ -43,10 +43,14 @@ IL学习
 
 ------------
 
+#### .NET框架
+
+#### C#基础
 
 基类（抽象类）还是接口？
 
 接口：行为规范，表示能做什么事，成员包含方法、属性、索引器、不含字段和实现的方法
+
 抽象类：字段、属性、实现的方法
 
 1、IS-A对比CAN-DO关系 
@@ -65,6 +69,11 @@ IS-A代表属于，CAN-DO代表能做某事。
 4、版本控制 
 
 向基类添加一个方法，派生类将继承该方法。而如果向接口添加新成员，则会强迫接口的继承者更改源代码并重新编译。   
+
+因为接口是一种特殊的抽象类，所以接口是引用类型。
+
+因为委托是密封类，所以委托是引用类型。
+
 
 
 #### 泛型
