@@ -122,6 +122,8 @@ C#调用C++或者C的DLL库中的函数也属于非托管资源。.NET环境下�
 
 ------------
 
+#### C#程序运行原理
+
 ![](https://raw.githubusercontent.com/coding-daily/awesome-csharp/master/images/C%20Sharp%E7%BC%96%E8%AF%913.png)
 
 #### 同步块索引(synchronization block index)：
