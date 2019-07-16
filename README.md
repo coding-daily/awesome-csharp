@@ -13,7 +13,7 @@
 - 接口分析（IEnumerable、IEnumerable< T >、IComparable、IComparable< in T >、IFormattable、IFormatProvider、IConvertible、ICloneable、IEquatable< T >、IComparer< in T >、IEqualityComparer< in T >、IDisposable、IAsyncResult、ICollection< T >、IList< T >、IQueryable、IQueryProvider、IDictionary< TKey, TValue >、INotifyPropertyChanged、IEditableObject、ISerializable）
 - Lambda、linq、SQL
 - 进程与线程、多线程与异步
-- 
+- 事件总线
 
 ------------
 
@@ -70,9 +70,9 @@ IS-A代表属于，CAN-DO代表能做某事。
 
 向基类添加一个方法，派生类将继承该方法。而如果向接口添加新成员，则会强迫接口的继承者更改源代码并重新编译。   
 
-因为接口是一种特殊的抽象类，所以接口是引用类型。
+> 因为接口是一种特殊的抽象类，所以接口是引用类型。
 
-因为委托是密封类，所以委托是引用类型。
+> 因为委托是密封类，所以委托是引用类型。
 
 
 
