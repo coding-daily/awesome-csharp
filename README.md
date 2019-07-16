@@ -195,6 +195,17 @@ Thread.Join(TimeSpan.FromHour(x) | timespan)  直到此线程执行结束，可�
 
 Thread.Sleep(0) <==> Thread.Yield()
 
+线程同步：lock (obj) { dosomething... } 
+- 1. lock不能锁定空值 ，因为Null是不需要被释放的。 
+- 2. 不能锁定string类型 ，虽然它也是引用类型的。因为字符串类型被CLR“暂留”，这意味着整个程序中任何给定字符串都只有一个实例，具有相同内容的字符串上放置了锁，就将锁定应用程序中该字符串的所有实例。 
+- 3. 值类型不能被lock ，每次装箱后的对象都不一样 ，锁定时会报错 。
+- 4. 避免锁定public类型 如果该实例可以被公开访问，则 lock(this) 可能会有问题，因为不受控制的代码也可能会锁定该对象。
+- 5. 推荐使用 private static readonly类型的对象，readonly是为了避免lock的代码块中修改对象，造成对象改变后锁失效。
+
+
+
+
+
 ------------
 
 #### 多线程与异步
