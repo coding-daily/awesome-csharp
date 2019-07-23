@@ -25,6 +25,8 @@
 
 [DotNet进阶系列](https://www.cnblogs.com/yaopengfei/p/8853590.html)
 
+[.NET面试题总结](https://blog.csdn.net/aspnet2002web/article/details/6084149)
+
 --------------
 
 IL学习
