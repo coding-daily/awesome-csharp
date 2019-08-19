@@ -96,6 +96,10 @@ Delegate：表示函数参数（签名）和返回值的类型   函数的指针
 - Func< T > 有返回值  Func< int,String >返回值类型为String，参数为int
 - Action< T > 无返回值  Action< int,int>参数为两个int类型
 
+#### Linq
+
+延时加载
+
 
 -------------
 
