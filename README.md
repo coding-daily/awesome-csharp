@@ -106,6 +106,8 @@ Delegate：表示函数参数（签名）和返回值的类型   函数的指针
 
 #### 内存管理与GC垃圾回收
 
+[引用、指针和句柄的区别](https://www.bookstack.cn/read/Java_Basic_Introduction/%E7%AC%AC2%E7%AB%A0%20Java%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80-%E5%BC%95%E7%94%A8%E3%80%81%E6%8C%87%E9%92%88%E5%92%8C%E5%8F%A5%E6%9F%84%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+
 > Windows的系统API数目都是十万左右，随着Windows版本的提高而增加。任何一种编程语言都可以调用Windows系统API函数。
 
 > 由于Windows系统是由C和C++语言写的，所以Windows根据C语言的基本数据类型重新定义了一些新的数据类型（都是大写）。Windows是面向对象的系统设计，所以定义了一些句柄（Handle）的数据类型，用句柄HANDLE来表示一个Windows系统的对象，比如图标句柄（HICON）、程序实体（HINSTANCE）、操作注册表时注册表值得句柄（HKEY）、模块句柄（HMODULE）、窗口句柄（HWND）等。
