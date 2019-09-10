@@ -202,7 +202,7 @@ C#调用C++或者C的DLL库中的函数也属于非托管资源。.NET环境下�
 
 Mutex：互斥锁，同一事件只能有一个线程使用它 | 作用：用来控制一个应用程序只能运行一个实例。
 
-Thread.Join(TimeSpan.FromHour(x) | timespan)  直到此线程执行结束，可以在指定时间内返回一个bool值。
+Thread.Join(TimeSpan.FromHour(x) | timespan)  直到此线程执行结束，可以在指定时间内返回一个bool值。Task调用Wait(timespan)方法，可以阻塞任务，直至任务完成，效果等同于Thread.Join()。
 
 Thread.Sleep(0) <==> Thread.Yield()
 
