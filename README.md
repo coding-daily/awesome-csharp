@@ -13,6 +13,7 @@
 - 接口分析（IEnumerable、IEnumerable< T >、IComparable、IComparable< in T >、IFormattable、IFormatProvider、IConvertible、ICloneable、IEquatable< T >、IComparer< in T >、IEqualityComparer< in T >、IDisposable、IAsyncResult、ICollection< T >、IList< T >、IQueryable、IQueryProvider、IDictionary< TKey, TValue >、INotifyPropertyChanged、IEditableObject、ISerializable）
 - Lambda、linq、SQL
 - 进程与线程、多线程与异步
+- I/O操作
 - 事件总线
 
 ------------
@@ -101,6 +102,14 @@ Delegate：表示函数参数（签名）和返回值的类型   函数的指针
 
 延时加载
 
+#### 数据流
+[C# 流总结](https://www.cnblogs.com/Johnny_Z/archive/2011/09/12/2174148.html)
+- FileStream，文件流，继承Stream类
+- MemoryStream，内存流
+- NetworkStream，网络流
+- BufferedStream
+- StreamReader/StreamWriter
+- TextReader/TextWriter
 
 -------------
 
