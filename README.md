@@ -78,6 +78,9 @@ IS-A代表属于，CAN-DO代表能做某事。
 
 > 因为委托是密封类，所以委托是引用类型。
 
+5、类和类成员的访问权限
+
+[C# 成员默认访问权限(public、private、protected、internal)](https://www.cnblogs.com/yezongjie/p/20181121AccessRights.html)
 
 
 #### 泛型
