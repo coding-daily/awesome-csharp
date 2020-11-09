@@ -42,7 +42,6 @@ IL学习
 
 [你的C#代码是怎么跑起来的（二）](https://www.cnblogs.com/brookshi/p/5278284.html)
 
-[c#内存管理概要](https://www.qingtingip.com/h_291669.html)
 
 ------------
 
