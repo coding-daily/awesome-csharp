@@ -30,6 +30,11 @@
 
 --------------
 
+视频教程
+
+[C#视频教程汇总](https://space.bilibili.com/29302915/favlist?fid=427506715&ftype=create)
+
+
 IL学习
 
 [30分钟？不需要，轻松读懂IL](https://www.cnblogs.com/brookshi/p/5225801.html)
@@ -175,6 +180,8 @@ C#调用C++或者C的DLL库中的函数也属于非托管资源。.NET环境下�
 #### C#程序运行原理
 
 ![](https://raw.githubusercontent.com/coding-daily/awesome-csharp/master/images/C%20Sharp%E7%BC%96%E8%AF%913.png)
+
+[视频：C#从代码到程序运行过程发生了什么](https://www.bilibili.com/video/BV1cf4y1e7iC)
 
 #### 同步块索引(synchronization block index)：
 
